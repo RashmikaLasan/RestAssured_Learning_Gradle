@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.erostrum.tests.SingleUserNotFoundTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-27T20:42:43" hostname="DESKTOP-UDDFKV4" time="1.005">
+  <properties/>
+  <testcase name="testSingleUserNotFound" classname="com.erostrum.tests.SingleUserNotFoundTest" time="1.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
