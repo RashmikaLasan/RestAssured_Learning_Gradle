@@ -2,9 +2,7 @@ package com.erostrum.tests;
 
 import com.erostrum.TestBase;
 import com.erostrum.constatnts.Endpoints;
-import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.equalTo;

@@ -2,15 +2,10 @@ package com.erostrum.tests;
 import com.erostrum.TestBase;
 import com.erostrum.constatnts.Endpoints;
 import io.restassured.http.ContentType;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 
 public class ListUsersTest extends TestBase{
-
-
-
-
 
     @Test
     public void testUsersStatusCode(){
@@ -21,6 +16,7 @@ public class ListUsersTest extends TestBase{
         //baseURI="https://reqres.in";
         String url=Endpoints.USERS_ENDPOINTS;
         given().contentType(ContentType.JSON).when().get(url).then().statusCode(200);
+
        }
 
        @Test
@@ -32,9 +28,6 @@ public class ListUsersTest extends TestBase{
                    then().extract().response().prettyPrint();
 
         }
-
-
-
 
 
 }
